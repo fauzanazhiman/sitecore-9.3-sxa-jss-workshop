@@ -1,0 +1,16 @@
+<!-- This is a sample view only. Replace this according to your requirements -->
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+
+@model RenderingModel
+@{ 
+    var dataSourceId = RenderingContext.CurrentOrNull.Rendering.DataSource;
+    var dataSourceItem = Sitecore.Context.Database.GetItem(dataSourceId);
+}
+
+<div class="p-5 bg-light">
+    <div class="container">
+        <h1 class="display-4">@Html.Sitecore().Field("Title", dataSourceItem)</h1>
+        <p class="lead">@Html.Sitecore().Field("Subtitle", dataSourceItem)</p>
+    </div>
+</div>

@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net48</TargetFramework>
+		<RootNamespace>$modulenamespace$</RootNamespace>
+		<AssemblyName>$modulenamespace$</AssemblyName>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<NoWarn>$(NoWarn),1591,SA1633,SA1404</NoWarn>
+		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+		<GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="App_Config\Include\Feature\$layerName$.$safeprojectname$.config" />
+	  <None Remove="App_Config\Include\Feature\$layerName$.$safeprojectname$.Serialization.config" />
+	  <None Remove="Views\$solutionNamespace$\$safeprojectname$\$safeprojectname$SampleView.cshtml" />
+	</ItemGroup>
+	<ItemGroup>
+		<Content Include="App_Config\Include\Feature\$layerName$.$safeprojectname$.config">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Content>
+		<Content Include="App_Config\Include\Feature\$layerName$.$safeprojectname$.Serialization.config">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Views\$solutionNamespace$\$safeprojectname$\$safeprojectname$SampleView.cshtml" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="9.0.0" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+		<PackageReference Include="Sitecore.Kernel" Version="$sitecoreVersion$">
+			<PrivateAssets>all</PrivateAssets>
+		</PackageReference>
+		<PackageReference Include="Sitecore.Mvc" Version="$sitecoreVersion$">
+			<PrivateAssets>all</PrivateAssets>
+		</PackageReference>
+		<PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+</Project>

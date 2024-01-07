@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <NoWarn>$(NoWarn),1591,SA1633,SA1404</NoWarn>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.10.3" />
+    <PackageReference Include="NSubstitute" Version="4.2.1" />
+    <PackageReference Include="Sitecore.ContentSearch.ContentExtraction" Version="$sitecoreVersion$" />
+    <PackageReference Include="Sitecore.FakeDb" Version="3.0.0-alpha1" />
+    <PackageReference Include="Sitecore.Nexus" Version="9.3.0" />
+    <PackageReference Include="Sitecore.Nexus.Licensing" Version="2.0.6" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\website\$modulenamespace$.csproj" />
+  </ItemGroup>
+
+</Project>

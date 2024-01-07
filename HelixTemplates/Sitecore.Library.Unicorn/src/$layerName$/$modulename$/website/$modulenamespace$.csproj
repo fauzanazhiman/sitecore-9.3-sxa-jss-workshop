@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>$moduleNamespace$</RootNamespace>
+    <AssemblyName>$moduleNamespace$</AssemblyName>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	<NoWarn>$(NoWarn),1591,SA1633,SA1404</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="App_Config\Include\$layerName$\$layerName$.$safeprojectname$.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\$layerName$\$layerName$.$safeprojectname$.config">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+
+  </ItemGroup>
+</Project>
