@@ -1,0 +1,18 @@
+﻿---
+ID: "3ed577fe-5cd7-4dcb-8dd9-3389f40d4a60"
+Parent: "dcc2beb3-2310-48a2-bc97-ac5377141c47"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Project/CorporateSite/corporate-top"
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "corporate-top"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240107T144024Z
