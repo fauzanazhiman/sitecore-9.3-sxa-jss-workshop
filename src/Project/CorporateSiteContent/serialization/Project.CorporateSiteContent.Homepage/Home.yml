@@ -1,7 +1,7 @@
 ﻿---
 ID: "c9123ba6-5e55-4c05-b2dd-a9e2b6318e66"
 Parent: "23aa9c56-770d-458b-90bb-072656957505"
-Template: "f6903826-6877-492e-a546-0f233a191db6"
+Template: "387be3b4-4d7d-4528-8d38-0f5f0735bfb6"
 Path: /sitecore/content/ContosoCorp/CorporateSite/Home
 DB: master
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
@@ -14,6 +14,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "05ae5c8a-4964-4ea7-82a9-77cb42840d61"
+      Hint: Description
+      Value: Your dream company.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20240106T013142Z
@@ -21,3 +24,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\Admin
+    - ID: "7db8760b-9d6d-406f-8845-17554f3672b7"
+      Hint: Title
+      Value: Welcome to Contoso Corp
