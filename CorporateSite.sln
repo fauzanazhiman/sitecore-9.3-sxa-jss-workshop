@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{234F8131-5F0A-499A-854F-3D2732DA4786}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\.gitkeep = src\Feature\.gitkeep
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{F4750AA6-67EE-4625-9ABC-F2374C6C8C70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{F5C2FB3E-7591-4FD7-BD99-037AB027C1A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorporateSite.Foundation.Serialization", "src\Foundation\Serialization\website\CorporateSite.Foundation.Serialization.csproj", "{2F458476-84BF-4D05-8443-19089E090BED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{DE5CB411-5F33-432F-8DB8-3D2B69CD82B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CorporateSite", "CorporateSite", "{ADD919A9-64E6-4AB5-AF37-FC4199EB848F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorporateSite.Project.Website", "src\Project\CorporateSite\website\CorporateSite.Project.Website.csproj", "{2BECC48F-FAD8-4475-974D-E9C233EF1CDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CorporateSiteContent", "CorporateSiteContent", "{8DF6D1A6-7392-4E63-81BE-99ED9663BE50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorporateSite.Project.CorporateSiteContent", "src\Project\CorporateSiteContent\website\CorporateSite.Project.CorporateSiteContent.csproj", "{8B5139CA-5826-4059-AEE7-FF2A6998C1B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution", "_Solution", "{A7609AE3-F05C-466D-BC0C-85EEC535868E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+		stylecop.json = stylecop.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F458476-84BF-4D05-8443-19089E090BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F458476-84BF-4D05-8443-19089E090BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F458476-84BF-4D05-8443-19089E090BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F458476-84BF-4D05-8443-19089E090BED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BECC48F-FAD8-4475-974D-E9C233EF1CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BECC48F-FAD8-4475-974D-E9C233EF1CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BECC48F-FAD8-4475-974D-E9C233EF1CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BECC48F-FAD8-4475-974D-E9C233EF1CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B5139CA-5826-4059-AEE7-FF2A6998C1B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B5139CA-5826-4059-AEE7-FF2A6998C1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B5139CA-5826-4059-AEE7-FF2A6998C1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B5139CA-5826-4059-AEE7-FF2A6998C1B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5C2FB3E-7591-4FD7-BD99-037AB027C1A5} = {F4750AA6-67EE-4625-9ABC-F2374C6C8C70}
+		{2F458476-84BF-4D05-8443-19089E090BED} = {F5C2FB3E-7591-4FD7-BD99-037AB027C1A5}
+		{ADD919A9-64E6-4AB5-AF37-FC4199EB848F} = {DE5CB411-5F33-432F-8DB8-3D2B69CD82B4}
+		{2BECC48F-FAD8-4475-974D-E9C233EF1CDB} = {ADD919A9-64E6-4AB5-AF37-FC4199EB848F}
+		{8DF6D1A6-7392-4E63-81BE-99ED9663BE50} = {DE5CB411-5F33-432F-8DB8-3D2B69CD82B4}
+		{8B5139CA-5826-4059-AEE7-FF2A6998C1B9} = {8DF6D1A6-7392-4E63-81BE-99ED9663BE50}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6B5AE40-15B1-4A11-AEDB-DA1D9D639F10}
+	EndGlobalSection
+EndGlobal

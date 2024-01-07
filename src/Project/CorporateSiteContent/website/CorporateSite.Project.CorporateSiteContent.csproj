@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>CorporateSite.Project.CorporateSiteContent</RootNamespace>
+    <AssemblyName>CorporateSite.Project.CorporateSiteContent</AssemblyName>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	<NoWarn>$(NoWarn),1591,SA1633,SA1404</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="App_Config\Include\Project\Project.CorporateSiteContent.Serialization.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\Project\Project.CorporateSiteContent.Serialization.config" />
+  </ItemGroup>
+</Project>
