@@ -1,0 +1,14 @@
+﻿---
+ID: "558ea945-5d17-499a-953d-3926c4be2fea"
+Parent: "b2315449-1b4b-42ed-bad2-af2acc455f57"
+Template: "52288e39-7830-4694-b62d-32a54c6ef7ba"
+Path: /sitecore/content/ContosoCorp/CorporateSite/Presentation/Placeholder Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240106T013144Z

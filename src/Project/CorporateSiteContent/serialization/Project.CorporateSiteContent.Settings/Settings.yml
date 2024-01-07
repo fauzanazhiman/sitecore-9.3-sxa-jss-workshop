@@ -1,0 +1,61 @@
+﻿---
+ID: "b9156645-1935-45e6-8a3d-27c8ef608789"
+Parent: "23aa9c56-770d-458b-90bb-072656957505"
+Template: "ec848505-d30c-4bdc-a0aa-7cc9d320085e"
+Path: /sitecore/content/ContosoCorp/CorporateSite/Settings
+DB: master
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2000
+- ID: "e8881464-38af-4655-be4a-ee10586578a2"
+  Hint: Templates
+  Value: "{BA7052E6-6392-4C6F-B097-578A27BFBA1C}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{0FEEB907-58F0-44DE-B08C-2F43C063D0A5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0129da3f-8c86-4591-ae32-6ec923413923"
+      Hint: DictionaryDomain
+      Value: Settings Dictionary
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240106T013142Z
+    - ID: "300fb7a0-b27f-44dd-9af0-b37a19723e0e"
+      Hint: RouteTemplateName
+      Value: Settings Route
+    - ID: "30e0a829-637e-478c-a136-66adb568398d"
+      Hint: GraphQLEndpoint
+      Value: "/api/contoso-corp-jss"
+    - ID: "32ce6bbe-4217-46e5-9335-42793884cbe3"
+      Hint: AppTemplate
+      Value: "{886C90DA-40C2-4A9A-A71E-D8AFABEB4F4E}"
+    - ID: "3e4f559f-8e59-4405-b50d-619811371f6c"
+      Hint: Name
+      Value: "contoso-corp-jss"
+    - ID: "5764d2d4-724d-4313-a81b-9246c911faff"
+      Hint: AppDatasourcesPath
+      Value: "{2A36FC24-0508-4D88-AC2F-D0EB34D92A9A}"
+    - ID: "5ca117eb-8782-4a4f-9f2f-30de31fc2e34"
+      Hint: PlaceholdersPath
+      Value: "{4F21279C-1462-4046-97FA-79E6414D9E86}"
+    - ID: "72e83c8d-3578-4e50-b4c0-93a78a1729f2"
+      Hint: FilesystemPath
+      Value: "/dist/contoso-corp-jss"
+    - ID: "797d2f63-d5c4-4c4c-b21f-d3e250e2ab12"
+      Hint: DeploymentSecret
+      Value: ykw8h2w2fabf4dttaagzlrv6z7ji6qcufoyes5n54gu
+    - ID: "a7bbad73-b933-49ff-95c8-1c269cb35e7c"
+      Hint: DictionaryPath
+      Value: "{4887CF0A-ED46-432C-8AE0-75BD90ED03FF}"
+    - ID: "c8d002f9-9518-4c5e-9baa-6617e13f0797"
+      Hint: LayoutPath
+      Value: "{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}"
+    - ID: "f29428d5-1285-48b8-a884-44057965829a"
+      Hint: RenderingsPath
+      Value: "{7817589A-D4F3-4C11-86D3-4C8166B999D6}"

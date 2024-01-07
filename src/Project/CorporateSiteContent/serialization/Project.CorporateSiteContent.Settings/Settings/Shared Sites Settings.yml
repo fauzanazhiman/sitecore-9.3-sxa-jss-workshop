@@ -1,0 +1,18 @@
+﻿---
+ID: "a6137242-6199-4c32-b7e5-96c62dd0028f"
+Parent: "b9156645-1935-45e6-8a3d-27c8ef608789"
+Template: "c14bf746-030f-4e59-8594-395f6d299e61"
+Path: /sitecore/content/ContosoCorp/CorporateSite/Settings/Shared Sites Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240106T013143Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

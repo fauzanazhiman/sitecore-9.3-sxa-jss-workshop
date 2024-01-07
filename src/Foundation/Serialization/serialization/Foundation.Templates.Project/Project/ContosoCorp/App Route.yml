@@ -1,0 +1,27 @@
+﻿---
+ID: "f6903826-6877-492e-a546-0f233a191db6"
+Parent: "ba7052e6-6392-4c6f-b097-578a27bfba1c"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/ContosoCorp/App Route
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Apps/32x32/Routes.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {47151711-26CA-434E-8132-D3E0B7D26683}
+    {6650FB34-7EA1-4245-A919-5CC0F002A6D7}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{4DD3B143-630E-429E-B44C-0BD02FEA869E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240106T012326Z

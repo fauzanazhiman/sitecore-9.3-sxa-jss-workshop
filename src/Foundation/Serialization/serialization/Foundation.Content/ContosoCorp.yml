@@ -1,0 +1,40 @@
+﻿---
+ID: "e7493c67-6ecc-4e30-8a0c-5f7b2781b727"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "2794434f-a8f7-407a-9413-ffaa726c4dae"
+Path: /sitecore/content/ContosoCorp
+DB: master
+BranchID: "2d3805b9-3089-44f3-b952-d45c44add7f8"
+SharedFields:
+- ID: "102b58da-2a86-4953-b3cd-c9f91256b657"
+  Hint: PlaceholderSettingsFolder
+  Value: "{4F21279C-1462-4046-97FA-79E6414D9E86}"
+- ID: "1230d2cb-4948-4d43-8a3b-b39978f6f1b3"
+  Hint: Modules
+  Type: Treelist
+  Value: |
+    {D912C30C-7A98-4A8D-A094-611D9AF9605D}
+    {6DE1F4E9-815D-491D-923D-D5038100DBEE}
+- ID: "800dc4ed-0846-45ba-b112-19902af240f6"
+  Hint: SharedMediaLibrary
+  Value: "{43AA5234-4BE5-4237-984F-4DD96CBB402D}"
+- ID: "853b245f-53e4-4ebe-bab5-299f9de314b6"
+  Hint: RenderingsFolder
+  Value: "{7817589A-D4F3-4C11-86D3-4C8166B999D6}"
+- ID: "9c596379-f8d4-45d1-a064-cdf1ede2e7c7"
+  Hint: Templates
+  Value: "{BA7052E6-6392-4C6F-B097-578A27BFBA1C}"
+- ID: "e90a4413-c111-4951-9b6a-00c4ce7fb289"
+  Hint: MediaLibrary
+  Value: "{313CE90C-014E-4988-886F-8FE032C97EFC}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{8453C078-6D17-4817-9230-91654AFE69C6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240106T012328Z

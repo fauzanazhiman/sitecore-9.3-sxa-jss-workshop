@@ -14,6 +14,7 @@
     <None Remove="App_Config\Include\Unicorn\Unicorn.config" />
     <None Remove="App_Config\Include\Unicorn\Unicorn.DataProvider.10.1.config.example" />
     <None Remove="App_Config\Include\Unicorn\Unicorn.DataProvider.config" />
+    <None Remove="App_Config\Include\Unicorn\Unicorn.IdentitySettings.config" />
     <None Remove="App_Config\Include\Unicorn\Unicorn.PowerShell.config" />
     <None Remove="App_Config\Include\Unicorn\Unicorn.UI.config" />
     <None Remove="App_Config\Include\z.Foundation\Foundation.Serialization.DevSettings.config" />
@@ -29,6 +30,7 @@
     <Content Include="App_Config\Include\Unicorn\Unicorn.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.DataProvider.10.1.config.example" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.DataProvider.config" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.IdentitySettings.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.PowerShell.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.UI.config" />
     <Content Include="App_Config\Include\z.Foundation\Foundation.Serialization.DevSettings.config" />

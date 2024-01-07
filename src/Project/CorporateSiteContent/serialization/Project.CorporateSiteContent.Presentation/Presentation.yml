@@ -1,0 +1,26 @@
+﻿---
+ID: "b2315449-1b4b-42ed-bad2-af2acc455f57"
+Parent: "23aa9c56-770d-458b-90bb-072656957505"
+Template: "0a70fa73-8923-4a6e-abf3-4134f25f3221"
+Path: /sitecore/content/ContosoCorp/CorporateSite/Presentation
+DB: master
+BranchID: "04362efe-d807-40f2-aa73-3e896466933f"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1900
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{FF60E4A9-F972-4791-B21B-F6AA0FBF4E6E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240106T013144Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

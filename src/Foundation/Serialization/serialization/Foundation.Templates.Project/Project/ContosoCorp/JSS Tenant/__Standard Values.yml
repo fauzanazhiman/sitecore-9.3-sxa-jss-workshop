@@ -1,0 +1,14 @@
+﻿---
+ID: "631f9bb8-70b1-4416-b6b1-452abcab08eb"
+Parent: "2794434f-a8f7-407a-9413-ffaa726c4dae"
+Template: "2794434f-a8f7-407a-9413-ffaa726c4dae"
+Path: /sitecore/templates/Project/ContosoCorp/JSS Tenant/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240106T012327Z
