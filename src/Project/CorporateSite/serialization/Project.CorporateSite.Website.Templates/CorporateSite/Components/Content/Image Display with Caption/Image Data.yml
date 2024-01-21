@@ -1,0 +1,14 @@
+﻿---
+ID: "434b1ba6-2ced-4a48-9a0e-c94f60d91bc9"
+Parent: "6345602d-8f07-4f0e-ac70-feee0ba81a2a"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/ContosoCorp/CorporateSite/Components/Content/Image Display with Caption/Image Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240113T191027Z

@@ -22,7 +22,7 @@ Languages:
     Fields:
     - ID: "0129da3f-8c86-4591-ae32-6ec923413923"
       Hint: DictionaryDomain
-      Value: Settings Dictionary
+      Value: Dictionary
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20240106T013142Z
@@ -43,7 +43,7 @@ Languages:
       Value: "{2A36FC24-0508-4D88-AC2F-D0EB34D92A9A}"
     - ID: "5ca117eb-8782-4a4f-9f2f-30de31fc2e34"
       Hint: PlaceholdersPath
-      Value: "{4F21279C-1462-4046-97FA-79E6414D9E86}"
+      Value: "{DCC2BEB3-2310-48A2-BC97-AC5377141C47}"
     - ID: "72e83c8d-3578-4e50-b4c0-93a78a1729f2"
       Hint: FilesystemPath
       Value: "/dist/contoso-corp-jss"
@@ -58,4 +58,4 @@ Languages:
       Value: "{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}"
     - ID: "f29428d5-1285-48b8-a884-44057965829a"
       Hint: RenderingsPath
-      Value: "{7817589A-D4F3-4C11-86D3-4C8166B999D6}"
+      Value: "{C5409F67-988C-419F-BB4B-AED22B90E652}"

@@ -1,0 +1,21 @@
+﻿---
+ID: "08cdbbb8-8f52-4a7c-8877-bb92a9987720"
+Parent: "434b1ba6-2ced-4a48-9a0e-c94f60d91bc9"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/ContosoCorp/CorporateSite/Components/Content/Image Display with Caption/Image Data/Title
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240113T191027Z

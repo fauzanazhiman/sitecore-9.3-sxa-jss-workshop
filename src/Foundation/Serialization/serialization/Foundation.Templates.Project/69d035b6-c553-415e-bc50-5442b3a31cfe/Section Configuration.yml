@@ -1,0 +1,14 @@
+﻿---
+ID: "421025c6-b2f6-4864-903e-42162d19b0f0"
+Parent: "69d035b6-c553-415e-bc50-5442b3a31cfe"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/ContosoCorp/CorporateSite/Components/Layout/Section Rendering Parameter/Section Configuration
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240113T191914Z

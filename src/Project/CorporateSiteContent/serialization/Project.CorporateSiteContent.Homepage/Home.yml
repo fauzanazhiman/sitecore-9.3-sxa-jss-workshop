@@ -6,6 +6,9 @@ Path: /sitecore/content/ContosoCorp/CorporateSite/Home
 DB: master
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{4F87F37F-63C2-4062-BC42-44E92DD7D8AA}"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
@@ -14,6 +17,85 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{85D50EC9-C942-4934-AE95-90FF7F57EC74}"
+              p:after="p[@uid='{9626626E-4B5A-4200-9AE7-083637B70472}']"
+              s:ds="local:/Data/Content Atas"
+              s:id="{D2002F42-CEE0-4307-9F5C-791888910157}"
+              s:par=""
+              s:ph="/corporate-content/section-{11FF92A3-7C8F-4B44-B814-83286B5601D5}-0" />
+            <r
+              uid="{34E5234E-4023-4515-83D8-879E200CB87F}"
+              p:after="r[@uid='{85D50EC9-C942-4934-AE95-90FF7F57EC74}']"
+              s:ds="local:/Data/Kolom 2"
+              s:id="{D2002F42-CEE0-4307-9F5C-791888910157}"
+              s:par=""
+              s:ph="/corporate-content/section-{11FF92A3-7C8F-4B44-B814-83286B5601D5}-1" />
+            <r
+              uid="{834E08A9-E7AB-48A1-AF25-77F82C437CFC}"
+              p:after="r[@uid='{34E5234E-4023-4515-83D8-879E200CB87F}']"
+              s:ds="local:/Data/ddd"
+              s:id="{0D51537F-14C3-4A11-BF35-84C4014C42B5}"
+              s:par=""
+              s:ph="/corporate-content/section-{995C06D8-658D-4176-B544-451C35831C1B}-0" />
+            <r
+              uid="{D54E2108-D836-4719-9E66-FAE482981FC5}"
+              p:after="r[@uid='{834E08A9-E7AB-48A1-AF25-77F82C437CFC}']"
+              s:ds="local:/Data/COntent X"
+              s:id="{D2002F42-CEE0-4307-9F5C-791888910157}"
+              s:par=""
+              s:ph="/corporate-content/section-{995C06D8-658D-4176-B544-451C35831C1B}-0" />
+            <r
+              uid="{05007DA2-3C66-4BB8-B3C6-FF8AEE7B6B1B}"
+              p:after="r[@uid='{D54E2108-D836-4719-9E66-FAE482981FC5}']"
+              s:ds="local:/Data/Kolom 2"
+              s:id="{D2002F42-CEE0-4307-9F5C-791888910157}"
+              s:par=""
+              s:ph="/corporate-content/section-{995C06D8-658D-4176-B544-451C35831C1B}-1" />
+            <r
+              uid="{BC3DB28A-3BC4-4407-B981-F6298F4E38CC}"
+              p:after="r[@uid='{05007DA2-3C66-4BB8-B3C6-FF8AEE7B6B1B}']"
+              s:ds="local:/Data/Content Atas"
+              s:id="{D2002F42-CEE0-4307-9F5C-791888910157}"
+              s:par=""
+              s:ph="section-0" />
+            <r
+              uid="{8DE55B4F-9FFA-4743-BE30-8F7A0035EDBA}"
+              p:after="r[@uid='{BC3DB28A-3BC4-4407-B981-F6298F4E38CC}']"
+              s:id="{0C98325B-CB3A-4E15-BED2-D49B0DC85D0F}"
+              s:par=""
+              s:ph="/corporate-content/corporate-section-{BEA5DD07-298A-4BF0-8226-EA82A5AF812E}-0" />
+            <r
+              uid="{53D972DC-49E3-4DE0-8294-C2CC61E663BE}"
+              p:after="r[@uid='{8DE55B4F-9FFA-4743-BE30-8F7A0035EDBA}']"
+              s:ds=""
+              s:id="{C415831A-9DFD-4EBC-805D-D948C8DFCA9D}"
+              s:par=""
+              s:ph="corporate-content" />
+            <r
+              uid="{11FF92A3-7C8F-4B44-B814-83286B5601D5}"
+              p:after="r[@uid='{53D972DC-49E3-4DE0-8294-C2CC61E663BE}']"
+              s:ds="local:/Data/Section 1"
+              s:id="{A3DFE128-D681-46B8-B171-D7AC6785DACF}"
+              s:par="Number of Columns=2&amp;Background Color=default&amp;Hide Title=1"
+              s:ph="corporate-content" />
+            <r
+              uid="{995C06D8-658D-4176-B544-451C35831C1B}"
+              p:after="*[1=2]"
+              s:ds="local:/Data/Section 2"
+              s:id="{A3DFE128-D681-46B8-B171-D7AC6785DACF}"
+              s:par="Number of Columns=1&amp;Background Color=secondaryColor&amp;Hide Title"
+              s:ph="corporate-content" />
+          </d>
+        </r>
     - ID: "05ae5c8a-4964-4ea7-82a9-77cb42840d61"
       Hint: Description
       Value: Your dream company.
@@ -27,3 +109,7 @@ Languages:
     - ID: "7db8760b-9d6d-406f-8845-17554f3672b7"
       Hint: Title
       Value: Welcome to Contoso Corp
+    - ID: "80417278-63fc-492b-8b2e-757fb3929df1"
+      Hint: Image
+      Value: |
+        <image mediaid="{56312229-6A95-4D20-8D86-EAB6CAFE30AA}" />

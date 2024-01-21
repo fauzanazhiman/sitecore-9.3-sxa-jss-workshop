@@ -1,7 +1,7 @@
 ﻿---
 ID: "4887cf0a-ed46-432c-8ae0-75bd90ed03ff"
 Parent: "23aa9c56-770d-458b-90bb-072656957505"
-Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Template: "0a2847e6-9885-450b-b61e-f9e6528480ef"
 Path: /sitecore/content/ContosoCorp/CorporateSite/Dictionary
 DB: master
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
@@ -9,6 +9,10 @@ SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: Office/32x32/book2.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{6D1CD897-1936-4A3A-A511-289A94C2A7B1}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 1700

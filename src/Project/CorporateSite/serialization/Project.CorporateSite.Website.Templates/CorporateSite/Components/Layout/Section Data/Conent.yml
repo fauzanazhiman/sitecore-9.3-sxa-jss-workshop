@@ -1,0 +1,14 @@
+﻿---
+ID: "4e8622d6-9fa0-43a0-ad32-4f38027e1fef"
+Parent: "958f7534-98c6-42b6-ba56-6b0be1bbae13"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/ContosoCorp/CorporateSite/Components/Layout/Section Data/Conent
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240114T063343Z

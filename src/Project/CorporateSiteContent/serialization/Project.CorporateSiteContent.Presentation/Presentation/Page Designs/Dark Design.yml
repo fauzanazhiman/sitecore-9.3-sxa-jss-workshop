@@ -1,0 +1,43 @@
+﻿---
+ID: "34feec81-f820-4808-8c3b-b99220b7a8bd"
+Parent: "ef83ce5e-29be-4833-bda5-1d20f17a5e14"
+Template: "0232229c-35f8-44ce-a1e6-aa7c0c311c8b"
+Path: /sitecore/content/ContosoCorp/CorporateSite/Presentation/Page Designs/Dark Design
+DB: master
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "{CBAE31A4-136C-4C57-80DD-1B97A9462C5E}|{F7275488-BD7B-4282-963C-AEEE100E02A5}"
+- ID: "18ff73d4-6c33-4c97-8fc0-0819b3bd2ae1"
+  Hint: Primary Color
+  Value: #ff7f6b
+- ID: "4fb23a8b-02fa-47a0-a45e-50e2f3bf2099"
+  Hint: Body Font
+  Value: Montserrat
+- ID: "53b985a5-f96b-412d-a239-a52822ed8a79"
+  Hint: Headings Text Color
+  Value: #ff7f6b
+- ID: "5931374c-9de3-46e6-acf6-d79d4a893669"
+  Hint: Background Color
+  Value: #000000
+- ID: "5feb911f-56fb-4e53-8b41-bb86f09ade54"
+  Hint: Body Text Color
+  Value: #ffffff
+- ID: "9dbb655f-2391-4edb-b529-bfd5d9f851b8"
+  Hint: Heading Font
+  Value: DM Serif Display
+- ID: "ab710fd8-a9b3-4002-9ccf-8f741e7b0fbd"
+  Hint: Secondary Color
+  Value: #fc9803
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240113T175806Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,22 @@
+﻿---
+ID: "a1a4005b-f256-4dd9-919a-19818c3b7c19"
+Parent: "4887cf0a-ed46-432c-8ae0-75bd90ed03ff"
+Template: "6d1cd897-1936-4a3a-a511-289a94c2a7b1"
+Path: /sitecore/content/ContosoCorp/CorporateSite/Dictionary/copyright left
+DB: master
+SharedFields:
+- ID: "580c75a8-c01a-4580-83cb-987776ceb3af"
+  Hint: Key
+  Value: copyright left
+Languages:
+- Language: en
+  Fields:
+  - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"
+    Hint: Phrase
+    Value: Copyright (c) Fauzan Azhiman 2024
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240121T053846Z

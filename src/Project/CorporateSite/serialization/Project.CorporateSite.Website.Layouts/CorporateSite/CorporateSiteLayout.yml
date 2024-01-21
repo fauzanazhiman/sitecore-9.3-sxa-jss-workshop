@@ -1,0 +1,22 @@
+﻿---
+ID: "faca07e9-6c50-441b-9d07-bca5a752e2e0"
+Parent: "06cf50a1-1e20-4916-a4fa-4c7c093650d1"
+Template: "35c61e90-47dd-43dd-83a8-d1c4d5119720"
+Path: /sitecore/layout/Layouts/Project/ContosoCorp/CorporateSite/CorporateSiteLayout
+DB: master
+SharedFields:
+- ID: "80334869-86dc-4472-aa89-44cf1b2f6c9b"
+  Hint: Placeholders
+  Type: Treelist
+  Value: |
+    {5F9E0A5C-57B9-413D-9E3E-779D9EA6538A}
+    {27B8A97C-65F8-4615-84AA-AF22FDF6F1A9}
+    {3ED577FE-5CD7-4DCB-8DD9-3389F40D4A60}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240107T162417Z

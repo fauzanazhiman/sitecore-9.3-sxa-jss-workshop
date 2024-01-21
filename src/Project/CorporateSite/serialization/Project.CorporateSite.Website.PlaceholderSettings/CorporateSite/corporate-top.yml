@@ -2,12 +2,18 @@
 ID: "3ed577fe-5cd7-4dcb-8dd9-3389f40d4a60"
 Parent: "dcc2beb3-2310-48a2-bc97-ac5377141c47"
 Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
-Path: "/sitecore/layout/Placeholder Settings/Project/CorporateSite/corporate-top"
+Path: "/sitecore/layout/Placeholder Settings/Project/ContosoCorp/CorporateSite/corporate-top"
 DB: master
 SharedFields:
 - ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
   Hint: Placeholder Key
   Value: "corporate-top"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {91973A51-1B46-4B16-850A-40E4E7BFD0CC}
+    {323C5281-F561-4474-8D15-62EF58171386}
 Languages:
 - Language: en
   Versions:

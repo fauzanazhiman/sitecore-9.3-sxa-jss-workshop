@@ -1,0 +1,18 @@
+﻿---
+ID: "625e1701-8247-43a6-9a92-1e5822616621"
+Parent: "be751f44-ba62-4cbf-8a2d-048a2391c860"
+Template: "0a92feee-0e15-4e81-b044-2ad901b88ddd"
+Path: /sitecore/content/ContosoCorp/CorporateSite/Settings/Enums/Section Column Options
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240113T234343Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

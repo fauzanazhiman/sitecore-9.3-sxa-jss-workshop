@@ -1,0 +1,22 @@
+﻿---
+ID: "be751f44-ba62-4cbf-8a2d-048a2391c860"
+Parent: "b9156645-1935-45e6-8a3d-27c8ef608789"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/ContosoCorp/CorporateSite/Settings/Enums
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/16x16/gears.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{0A92FEEE-0E15-4E81-B044-2AD901B88DDD}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240113T234308Z

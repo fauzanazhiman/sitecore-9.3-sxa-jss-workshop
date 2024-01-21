@@ -1,8 +1,8 @@
 ﻿---
 ID: "942bc494-b97e-4cbe-a809-e9657fd477db"
-Parent: "b701850a-cb8a-4943-b2bc-dddb1238c103"
+Parent: "d9c69eb4-0af3-403a-8023-4edaca8b762c"
 Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: /sitecore/Forms/CorporateSite
+Path: /sitecore/Forms/ContosoCorp/CorporateSite
 DB: master
 Languages:
 - Language: en

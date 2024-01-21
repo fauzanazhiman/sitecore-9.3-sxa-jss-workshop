@@ -1,0 +1,54 @@
+﻿---
+ID: "f7275488-bd7b-4282-963c-aeee100e02a5"
+Parent: "6bd3c1c2-b688-4c7c-9f68-739fc3ad0d55"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: /sitecore/content/ContosoCorp/CorporateSite/Presentation/Partial Designs/Default Header
+DB: master
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: header
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        s:l="{FACA07E9-6C50-441B-9D07-BCA5A752E2E0}" />
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{47C35E87-6FD2-43C2-8FFF-97DB0AC73C83}"
+              p:before="*"
+              s:id="{91973A51-1B46-4B16-850A-40E4E7BFD0CC}"
+              s:par=""
+              s:ph="corporate-top" />
+            <r
+              uid="{7BE2773A-6506-4732-BC0D-F8F62EB6AC28}"
+              p:after="*[1=2]"
+              s:id="{323C5281-F561-4474-8D15-62EF58171386}"
+              s:par=""
+              s:ph="corporate-top" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240107T163002Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

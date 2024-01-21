@@ -33,6 +33,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution", "_Solution", "{
 		stylecop.json = stylecop.json
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SitecoreCustomizations", "SitecoreCustomizations", "{AB5D4D52-0757-4333-8C3A-84703C6FEC90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorporateSite.Feature.SitecoreCustomizations.Tests", "src\Feature\SitecoreCustomizations\tests\CorporateSite.Feature.SitecoreCustomizations.Tests.csproj", "{98E25F92-3213-45F6-BD16-F5689133F0E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorporateSite.Feature.SitecoreCustomizations", "src\Feature\SitecoreCustomizations\website\CorporateSite.Feature.SitecoreCustomizations.csproj", "{0D7119E6-8F51-4578-9D95-27A256F8B9D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Navigation", "Navigation", "{9D64E9AD-5DB6-4A00-BA21-82ABE440508F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorporateSite.Feature.Navigation.Tests", "src\Feature\Navigation\tests\CorporateSite.Feature.Navigation.Tests.csproj", "{AAB3F744-0A9F-4787-B842-012585B3202B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorporateSite.Feature.Navigation", "src\Feature\Navigation\website\CorporateSite.Feature.Navigation.csproj", "{14CF82C6-059C-4AD1-8678-04D5B76CD8E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +63,22 @@ Global
 		{8B5139CA-5826-4059-AEE7-FF2A6998C1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B5139CA-5826-4059-AEE7-FF2A6998C1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B5139CA-5826-4059-AEE7-FF2A6998C1B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E25F92-3213-45F6-BD16-F5689133F0E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E25F92-3213-45F6-BD16-F5689133F0E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E25F92-3213-45F6-BD16-F5689133F0E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E25F92-3213-45F6-BD16-F5689133F0E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D7119E6-8F51-4578-9D95-27A256F8B9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7119E6-8F51-4578-9D95-27A256F8B9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7119E6-8F51-4578-9D95-27A256F8B9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7119E6-8F51-4578-9D95-27A256F8B9D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB3F744-0A9F-4787-B842-012585B3202B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB3F744-0A9F-4787-B842-012585B3202B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB3F744-0A9F-4787-B842-012585B3202B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB3F744-0A9F-4787-B842-012585B3202B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CF82C6-059C-4AD1-8678-04D5B76CD8E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CF82C6-059C-4AD1-8678-04D5B76CD8E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CF82C6-059C-4AD1-8678-04D5B76CD8E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CF82C6-059C-4AD1-8678-04D5B76CD8E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +90,12 @@ Global
 		{2BECC48F-FAD8-4475-974D-E9C233EF1CDB} = {ADD919A9-64E6-4AB5-AF37-FC4199EB848F}
 		{8DF6D1A6-7392-4E63-81BE-99ED9663BE50} = {DE5CB411-5F33-432F-8DB8-3D2B69CD82B4}
 		{8B5139CA-5826-4059-AEE7-FF2A6998C1B9} = {8DF6D1A6-7392-4E63-81BE-99ED9663BE50}
+		{AB5D4D52-0757-4333-8C3A-84703C6FEC90} = {234F8131-5F0A-499A-854F-3D2732DA4786}
+		{98E25F92-3213-45F6-BD16-F5689133F0E4} = {AB5D4D52-0757-4333-8C3A-84703C6FEC90}
+		{0D7119E6-8F51-4578-9D95-27A256F8B9D9} = {AB5D4D52-0757-4333-8C3A-84703C6FEC90}
+		{9D64E9AD-5DB6-4A00-BA21-82ABE440508F} = {234F8131-5F0A-499A-854F-3D2732DA4786}
+		{AAB3F744-0A9F-4787-B842-012585B3202B} = {9D64E9AD-5DB6-4A00-BA21-82ABE440508F}
+		{14CF82C6-059C-4AD1-8678-04D5B76CD8E4} = {9D64E9AD-5DB6-4A00-BA21-82ABE440508F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B6B5AE40-15B1-4A11-AEDB-DA1D9D639F10}

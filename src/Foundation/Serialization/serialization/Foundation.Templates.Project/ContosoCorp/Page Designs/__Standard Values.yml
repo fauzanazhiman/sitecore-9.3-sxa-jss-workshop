@@ -1,0 +1,23 @@
+﻿---
+ID: "7d46538e-a589-4882-9b75-cf71cd208913"
+Parent: "700cd356-0ac5-451d-a673-f67c23d9b656"
+Template: "700cd356-0ac5-451d-a673-f67c23d9b656"
+Path: /sitecore/templates/Project/ContosoCorp/Page Designs/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{0232229C-35F8-44CE-A1E6-AA7C0C311C8B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240106T012327Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

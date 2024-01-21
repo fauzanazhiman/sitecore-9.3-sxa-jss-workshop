@@ -1,0 +1,24 @@
+﻿---
+ID: "a0def73d-cdb4-4ea8-bc9e-08320a4788a4"
+Parent: "69d035b6-c553-415e-bc50-5442b3a31cfe"
+Template: "69d035b6-c553-415e-bc50-5442b3a31cfe"
+Path: /sitecore/templates/Project/ContosoCorp/CorporateSite/Components/Layout/Section Rendering Parameter/__Standard Values
+DB: master
+SharedFields:
+- ID: "3094d236-5985-4c4f-ae6a-e30740885532"
+  Hint: Caching
+  Value: 0|0|0|0|0|0|0|0
+- ID: "4b0262ee-6860-43d9-89c8-8b1820096f65"
+  Hint: Number of Columns
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240113T192326Z
+    - ID: "85df508a-5480-4aa7-bfed-26b080f0f0a3"
+      Hint: Background Color
+      Value: default

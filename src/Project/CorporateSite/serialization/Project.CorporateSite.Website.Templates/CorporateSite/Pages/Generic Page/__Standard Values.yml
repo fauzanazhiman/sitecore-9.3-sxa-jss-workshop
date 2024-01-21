@@ -1,0 +1,47 @@
+﻿---
+ID: "6eeac79e-cebc-4c93-b94e-91d9a8612d75"
+Parent: "387be3b4-4d7d-4528-8d38-0f5f0735bfb6"
+Template: "387be3b4-4d7d-4528-8d38-0f5f0735bfb6"
+Path: /sitecore/templates/Project/ContosoCorp/CorporateSite/Pages/Generic Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{387BE3B4-4D7D-4528-8D38-0F5F0735BFB6}"
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{4F87F37F-63C2-4062-BC42-44E92DD7D8AA}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{FACA07E9-6C50-441B-9D07-BCA5A752E2E0}">
+        <p
+          uid="{25DDF347-AE80-4C91-AEE8-AC7769FDEB82}"
+          key="corporate-top"
+          md="{3ED577FE-5CD7-4DCB-8DD9-3389F40D4A60}" />
+        <p
+          uid="{7B755CA3-48E3-436C-8F43-25740E063AC1}"
+          key="corporate-content"
+          md="{27B8A97C-65F8-4615-84AA-AF22FDF6F1A9}" />
+        <p
+          uid="{9626626E-4B5A-4200-9AE7-083637B70472}"
+          key="corporate-bottom"
+          md="{5F9E0A5C-57B9-413D-9E3E-779D9EA6538A}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240107T150832Z
+    - ID: "7db8760b-9d6d-406f-8845-17554f3672b7"
+      Hint: Title
+      Value: $name
