@@ -47,6 +47,7 @@ namespace CorporateSite.Feature.Navigation.ContentResolvers
         iteratingItem = iteratingItem.Parent;
       }
       breadcrumbItems.Add(homeItem);
+      breadcrumbItems.Reverse();
 
       resultJson["items"] = new JArray(breadcrumbItems.Select(item =>
       {

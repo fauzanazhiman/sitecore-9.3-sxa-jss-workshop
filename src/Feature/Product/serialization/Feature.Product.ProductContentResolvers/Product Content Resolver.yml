@@ -1,0 +1,22 @@
+﻿---
+ID: "0a2d3e9c-372d-45a3-aca2-d5f89d9a3150"
+Parent: "14f5601e-f5ff-4078-a112-c7cc003c1e80"
+Template: "814c1dbb-b118-4511-ba2b-7288ed3d490b"
+Path: /sitecore/system/Modules/Layout Service/Rendering Contents Resolvers/ContosoCorp/CorporateSite/Product Content Resolver
+DB: master
+SharedFields:
+- ID: "de218ede-a9ad-4b04-86c5-9ff593ccf39d"
+  Hint: Type
+  Value: CorporateSite.Feature.Product.ContentResolvers.ProductContentResolver, CorporateSite.Feature.Product
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240121T091257Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

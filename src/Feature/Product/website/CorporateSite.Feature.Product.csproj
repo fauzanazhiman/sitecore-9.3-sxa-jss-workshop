@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net48</TargetFramework>
+		<RootNamespace>CorporateSite.Feature.Product</RootNamespace>
+		<AssemblyName>CorporateSite.Feature.Product</AssemblyName>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<NoWarn>$(NoWarn),1591,SA1633,SA1404</NoWarn>
+		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+		<GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="App_Config\Include\Feature\Feature.Product.config" />
+	  <None Remove="App_Config\Include\Feature\Feature.Product.Serialization.config" />
+	</ItemGroup>
+	<ItemGroup>
+		<Content Include="App_Config\Include\Feature\Feature.Product.config">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Content>
+		<Content Include="App_Config\Include\Feature\Feature.Product.Serialization.config">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="9.0.0" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+		<PackageReference Include="RestSharp" Version="110.2.0" />
+		<PackageReference Include="Sitecore.Kernel" Version="9.3.0">
+			<PrivateAssets>all</PrivateAssets>
+		</PackageReference>
+		<PackageReference Include="Sitecore.LayoutService" Version="9.3.0">
+			<PrivateAssets>all</PrivateAssets>
+		</PackageReference>
+		<PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+</Project>

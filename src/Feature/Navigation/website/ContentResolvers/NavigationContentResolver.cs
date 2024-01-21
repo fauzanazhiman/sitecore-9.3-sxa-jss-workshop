@@ -37,14 +37,16 @@
         resultJson["items"] = null;
       }
 
-      var itemsToAdd = new List<Item>();
-      itemsToAdd.Add(homeItem);
+      var itemsToAdd = new List<Item>
+      {
+        homeItem,
+      };
 
       // get level 1 children
       var homeChildrenItems = homeItem.GetChildren();
       itemsToAdd.AddRange(homeChildrenItems);
 
-      resultJson["items"] = new JArray(itemsToAdd.Where(item => item.TemplateID == new Sitecore.Data.ID("{16A37E6F-2299-48BE-8B60-3A1101FC040A}"))
+      resultJson["items"] = new JArray(itemsToAdd.Where(item => item.TemplateName == "Generic Page")
       .Select(item =>
       {
         var procesedItem = this.ProcessItem(item, rendering, renderingConfig);
