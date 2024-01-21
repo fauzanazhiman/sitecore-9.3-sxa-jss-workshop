@@ -13,7 +13,7 @@ SharedFields:
   Value: #ff7f6b
 - ID: "4fb23a8b-02fa-47a0-a45e-50e2f3bf2099"
   Hint: Body Font
-  Value: Montserrat
+  Value: Raleway
 - ID: "53b985a5-f96b-412d-a239-a52822ed8a79"
   Hint: Headings Text Color
   Value: #ff7f6b
@@ -25,10 +25,10 @@ SharedFields:
   Value: #ffffff
 - ID: "9dbb655f-2391-4edb-b529-bfd5d9f851b8"
   Hint: Heading Font
-  Value: DM Serif Display
+  Value: Grape Nuts
 - ID: "ab710fd8-a9b3-4002-9ccf-8f741e7b0fbd"
   Hint: Secondary Color
-  Value: #fc9803
+  Value: #32a852
 Languages:
 - Language: en
   Versions:
